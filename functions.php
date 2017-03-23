@@ -141,3 +141,8 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Load TGM Plugin Activation.
+ */
+require get_template_directory() . '/tgm-plugin-activation/first-cool-tgm-plugin-activation.php';
