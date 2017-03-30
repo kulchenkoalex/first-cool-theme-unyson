@@ -28,7 +28,7 @@ $manifest['requirements'] = array(
 /**
  * @type bool Display on the Extensions page or it's a hidden extension
  */
-$manifest['display'] = false;
+$manifest['display'] = true;
 /**
  * @type bool If extension can exist alone
  * false - There is no sense for it to exist alone, it exists only when is required by some other extension.
