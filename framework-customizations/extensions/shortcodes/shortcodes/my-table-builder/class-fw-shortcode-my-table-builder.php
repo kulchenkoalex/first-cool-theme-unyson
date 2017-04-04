@@ -17,6 +17,6 @@ class FW_Shortcode_My_Table_Builder extends FW_Shortcode
     }
     private function load_option_type()
     {
-       // require $this->locate_path('/includes/option-types/my-table-builder/class-fw-option-type-my-table-builder.php');
+        require $this->locate_path('/includes/option-types/my-table-builder/class-fw-option-type-my-table-builder.php');
     }
 }
